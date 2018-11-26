@@ -4,7 +4,7 @@ import datetime
 class Constant(object):
     #IPAddress
     def getHost(self):
-        host='172.16.50.14'
+        host='127.0.0.1'
         return  host
 
     #服务器用户名
@@ -14,7 +14,7 @@ class Constant(object):
 
     #服务器密码
     def getPwd(self):
-        pwd='1o-8Dengyu2'
+        pwd='******'
         return pwd
 
     #DB名称
@@ -44,9 +44,7 @@ class Constant(object):
         return xname
 
     def mailuserlist(self):
-        #mailusers=' huazhanghui@pb-station.com,liuyingnan@pb-station.com,dongruijie@pb-station.com'
-        mailusers=' huazhanghui@pb-station.com'
-	#mailusers=' huazhanghui@pb-station.com,liuyingnan@pb-station.com'
+        mailusers=' ***@***.com'
         return mailusers
 
     def reportpath(self):
